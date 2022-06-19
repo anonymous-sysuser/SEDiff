@@ -11,7 +11,7 @@ from subprocess import Popen, PIPE
 
 # "solver" should point to the binary built. 
 # e.g. "/home/z3-str/str" or "/home/work/tool/z3/myStrTheory/str"
-solver = "/home/phli/navex-others/z3-str/str"
+solver = "z3-str/z3"
 # Before sovling the constraints, Z3-str has to properly encodes inputs as intermediated 
 # format. (E.g. "\n" and "\t" should be encoded). Variable "tmpEncodingDir" where the intermediated
 # inputs are saved
