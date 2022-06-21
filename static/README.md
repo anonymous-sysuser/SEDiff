@@ -7,5 +7,5 @@ This part is a bit complicated. Sorry I do not fully automate it.
 3. Install a symbolic execution and prepare for the data-flow analysis. This requires some manual efforts and configurations. 
     - We use Navex as the target symbolic execution engine here.
     - Check the [documents](https://github.com/aalhuz/navex) to install our [navex](navex) instance.
-    - Generate 
-4. Run the `analyzer/ckcross.py` checker for the mapping.  It generates a result file, which describes the code that should be specially instrumented for dynamic differential fuzzing.
+    - The code `juxta/analyzer/code.py` creates the normalized formulas for the data-flow analysis.
+4. Run the `analyzer/ckcross.py` checker for the mapping. It generates a result file, which describes the code that should be specially instrumented for dynamic differential fuzzing.

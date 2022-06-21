@@ -8,6 +8,7 @@ For example, to instrument PHP internal functions, you are required to replace t
 # download the source code of interpreter.
 ./afl-clang-fast 
 ```
+2. Put the static analysis result file in the name of `static.txt` under ` hybrid_metric/llvm_mode/`. The instrumentation tool will uses it to guide the instrumentation.
 
 ## Test
 You can run our scope-aware fuzzing with the basic afl commands.
